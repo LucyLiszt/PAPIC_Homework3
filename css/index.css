@@ -12,5 +12,7 @@
 }
 .form_text{
     width: 45vw;
+    text-align: center;
+    border-radius: 20px;
 }
 /* form end */
