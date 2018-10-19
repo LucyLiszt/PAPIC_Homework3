@@ -16,5 +16,6 @@ while($row = $result->fetch_assoc()){
         break;
     }
 }
-if($isright=0)  echo "Fail";
+if($isright=0)
+    echo "Fail";
 ?>

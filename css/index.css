@@ -14,5 +14,16 @@
     width: 45vw;
     text-align: center;
     border-radius: 20px;
+    margin: 3%;
+    height: 50px;
+    font-size: 200%;
+    background: lavender;
+}
+.form_b{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 1%;
+    background: lavender;
 }
 /* form end */
