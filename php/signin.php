@@ -11,7 +11,7 @@ if($postwd1==$postwd)
 {
     $sql = "INSERT INTO users(id,pswd)
     VALUES($postid,$postwd)";
-    echo 'Success!';
+    echo 'sign in success!';
 }
 else echo "Fail";
 ?>

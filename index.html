@@ -21,17 +21,17 @@
             <div class="row form_div">
                 <div class="col-sm-0 col-md-3"></div>
                 <div class="col-sm-0 col-md-6">
-                    <form action="php/login.php" method="POST" id="loginform" class="forms">
-                        <div><input type="text" name="userid" class="form_text" placeholder="ID"></div>
+                    <form action="php/login.php" method="POST" id="loginform" class="forms" name="login" onsubmit="return logincheck()">
+                        <div><input type="text" name="userid" class="form_text" placeholder="ID" id="loginidtext"></div>
                         <div><input type="password" name="userpasswd" class="form_text" placeholder="Passwd"></div>
                         <div><input type="submit" value="Login" class="form_b"></div>
                         <div><input type="button" value="Sign in" onclick="clicksignin()" class="form_b"></div>
                     </form>
-                    <form action="php/signin.php" method="POST" id="signinform" class="forms">
-                        <div><input type="text" name="userid" class="form_text" placeholder="ID"></div>
+                    <form action="php/signin.php" method="POST" id="signinform" class="forms" name="signin" onsubmit="return signincheck()">
+                        <div><input type="text" name="userid" class="form_text" placeholder="ID" name="signinid" id="signinid"></div>
                         <div><input type="password" name="userpasswd" class="form_text" placeholder="Passwd"></div>
                         <div><input type="password" name="userpasswd1" class="form_text" placeholder="Passwd"></div>
-                        <div><input type="submit" value="Sign in" onclick="clicksignin1()" class="form_b"></div>
+                        <div><input type="submit" value="Sign in" class="form_b"></div>
                     </form>
                 </div>
                 <div class="col-sm-0 col-md-3"></div>

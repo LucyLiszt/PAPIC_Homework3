@@ -3,6 +3,7 @@
     font-size: 60px;
     text-align: center;
     margin-top: 10vh; 
+    color: white;
 }
 /* title end */
 
@@ -27,3 +28,9 @@
     background: lavender;
 }
 /* form end */
+
+/* body start */
+body{
+    background-image: url("../imgs/bg.jpg");
+}
+/* body end */
