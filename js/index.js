@@ -12,7 +12,7 @@ function logincheck(){
     if(/^\w+$/.test(login_id)&&/^\w+$/.test(login_pswd))
         return true;
     else{
-        document.getElementById("loginidtext").value = "Invaild Value!";
+        document.getElementById("loginidtext").value = "Invalid Value!";
         return false;
     }
 }
@@ -31,12 +31,12 @@ function signincheck(){
             }
         }
         else{
-            document.getElementById("signinid").value = "Ivaild Passwd!";
+            document.getElementById("signinid").value = "Invalid Passwd!";
             return false;
         }
     }
     else{
-        document.getElementById("signinid").value = "Ivaild ID!";
+        document.getElementById("signinid").value = "Invalid ID!";
         return false;
     }
 }
