@@ -2,7 +2,7 @@
 .title_div{
     font-size: 60px;
     text-align: center;
-    margin-top: 10vh; 
+    margin-top: 10vh;
     color: white;
 }
 /* title end */
@@ -31,6 +31,6 @@
 
 /* body start */
 body{
-    background-image: url("../imgs/bg.jpg");
+   background-color: black;
 }
 /* body end */
